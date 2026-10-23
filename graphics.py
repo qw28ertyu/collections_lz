@@ -16,8 +16,8 @@ mplt.plot(x, y, color="blue", marker='x') # создание графика
 
 #натуральный логарифм 
 log = np.linspace(0.1, 10, 50)
-y = np.log(log)
-mplt.plot(x,y, color="pink", marker='s')
+y_log = np.log(log)
+mplt.plot(log, y_log, color="pink", marker='s')
 
 y = x**3 #квадратичная парабола
 mplt.plot(x, y, color="green", marker='^')
