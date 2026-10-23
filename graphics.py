@@ -1,7 +1,5 @@
 import matplotlib.pyplot as mplt
 import numpy as np
-import math
-
 
 #cоздаём диапазон от -5 до 5 
 x = np.linspace(-5, 5, 50)
