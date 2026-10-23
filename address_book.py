@@ -39,7 +39,7 @@ while n < 5:
             d = str(input("Номер телефона кого вы хотите изменить?"))
             if d in book:
                 e = str(input("Какой его новый номер телефона? "))
-                book[d]["adress"]=e
+                book[d]["number"]=e
                 #Вывод действия
                 print('Номер изменен')
             else:
